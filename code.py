@@ -42,10 +42,17 @@ def text_screen(text, color, x, y):
     gameWindow.blit(screen_text, [x, y])
 
 
+
+    
+    
 def plot_snake(gameWindow, color, snk_list, snake_size):
     for x, y in snk_list:
         pygame.draw.rect(gameWindow, color, [x, y, snake_size, snake_size])
-
+    
+    
+    
+    
+    
 
 snk_list = []
 snk_length = 1
